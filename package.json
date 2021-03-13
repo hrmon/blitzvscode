@@ -1,0 +1,56 @@
+{
+    "name": "blitzvscode",
+    "displayName": "BlitzVSCode",
+    "description": "Syntax Highlighting for KPL and Blitz ASM",
+    "version": "0.0.1",
+    "publisher": "monnttes",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hrmon/blitzvscode.git"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "kpl",
+                "aliases": [
+                    "KPL",
+                    "kpl"
+                ],
+                "extensions": [
+                    ".c",
+                    ".h"
+                ],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "blitzasm",
+                "aliases": [
+                    "Blitz ASM",
+                    "blitzasm"
+                ],
+                "extensions": [
+                    ".s"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "kpl",
+                "scopeName": "source.kpl",
+                "path": "./syntaxes/kpl.tmLanguage"
+            },
+            {
+                "language": "blitzasm",
+                "scopeName": "source.asm",
+                "path": "./syntaxes/asm.tmLanguage"
+            }
+        ]
+    }
+}
