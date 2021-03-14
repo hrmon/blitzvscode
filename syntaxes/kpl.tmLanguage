@@ -108,7 +108,7 @@
 			<key>comment</key>
 			<string>All the keywords in the language</string>
 			<key>match</key>
-			<string>\b(alloc|anyType|array|arraySize|asInteger|asPtrTo|behavior|bool|break|by|case|catch|char|class|code|const|continue|debug|default|do|else|elseIf|endBehavior|endClass|endCode|endFor|endFunction|endHeader|endIf|endInterface|endMethod|endRecord|endSwitch|endTry|endWhile|enum|errors|extends|external|false|fields|for|free|function|header|if|implements|infix|int|interface|isInstanceOf|isKindOf|messages|method|methods|new|null|of|prefix|ptr|record|renaming|return|returns|self|sizeOf|suer|superclass|switch|throw|to|true|try|type|typeOfNull|until|uses|var|void|while)\b</string>
+			<string>\b(alloc|anyType|array|arraySize|asInteger|asPtrTo|behavior|bool|break|by|case|catch|char|class|code|const|continue|debug|default|do|double|else|elseIf|endBehavior|endClass|endCode|endFor|endFunction|endHeader|endIf|endInterface|endMethod|endRecord|endSwitch|endTry|endWhile|enum|errors|extends|external|false|fields|for|free|function|functions|header|if|implements|infix|int|interface|isInstanceOf|isKindOf|messages|method|methods|new|null|of|prefix|ptr|record|renaming|return|returns|self|sizeOf|super|superclass|switch|throw|to|true|try|type|typeOfNull|until|uses|var|void|while)\b</string>
 			<key>name</key>
 			<string>keyword.source.kpl</string>
 		</dict>
