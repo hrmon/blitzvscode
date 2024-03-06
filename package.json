@@ -24,7 +24,8 @@
                 ],
                 "extensions": [
                     ".c",
-                    ".h"
+                    ".h",
+                    ".k"
                 ],
                 "configuration": "./kpl-language-configuration.json"
             },
